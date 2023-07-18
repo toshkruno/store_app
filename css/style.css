@@ -20494,7 +20494,7 @@ nav[role=nav] {
 .bb-brand-header,
 .top-banner-home {
     position: relative;
-    background-color: #15150D;
+    background-color: #F6F75A;
     width: 100%;
     height: auto;
     -webkit-box-align: center;
@@ -20757,11 +20757,18 @@ nav[role=nav] {
 .logo-responsive {
     width: 80px;
     height: 80px;
-    padding-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.primary-logo-home .logo-responsive {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
 }
 
 .header-banner .header-promotion {
-    background-color: #F6F75A;
+    background-color: #F6F6D2;
     color: #fff;
     text-align: left;
     height: 3.3em;
@@ -46676,7 +46683,6 @@ span.ui-dialog-title {
 }
 
 #homepage-slider .jcarousel-control {
-    bottom: .5rem;
     right: .5rem;
     position: absolute
 }
@@ -46703,7 +46709,6 @@ span.ui-dialog-title {
 }
 
 .home-bottom-slots {
-    margin: auto;
     max-width: 100%
 }
 
